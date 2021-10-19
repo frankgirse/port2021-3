@@ -8,6 +8,11 @@ module.exports = withBundleAnalyzer({
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
   },
+
+  images: {
+    domains: ['drive.google.com'],
+  },
+
   experimental: { esmExternals: true },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
