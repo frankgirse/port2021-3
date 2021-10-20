@@ -1,0 +1,31 @@
+table {
+  margin: 0 auto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1rem;
+  color: white;
+}
+
+table td,
+table th {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  background-color: rgb(188, 188, 188);
+}
+
+table tr:nth-child(even) {
+  background-color: ;
+}
+
+table tr:hover {
+  background-color: rgb(206, 133, 37);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(29, 41, 89);
+  color: white;
+}
